@@ -1,0 +1,105 @@
+body {
+	background-color:#242424;
+	font-family: 'Open Sans';
+	color:white;
+}
+
+.keko{
+	background-size: cover;
+    color: #cfcfcf;
+    height: 100%;
+    padding-bottom: 400px;
+}
+
+.texty {
+	position: relative;
+    padding-top: 250px;
+    padding-right: 0;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size:5rem;
+    max-width: 600px;
+    display: inline-block;
+    color:#38B6FA;
+    font-weight: 800;
+}
+
+.img {
+	height:700px;
+	position: absolute;
+	display: inline-block;
+	padding-top: 55px;
+}
+
+.button {
+	margin-left:10px;
+	left:0;
+	font-family: 'Open Sans';
+	text-align: center;
+	color:white;
+	padding:10px 20px 10px 20px;
+	background:transparent;
+	border-radius: 10%;
+	border: 3px solid #38B6FA;
+}
+
+.keko2 {
+	width: 100%;
+	background-color: white;
+	margin-top:10px;
+    height: 100%;
+    padding-bottom: 80px;
+}
+
+.texto {
+	padding-top:40px;
+	text-align: center;
+	font-size: 3rem;
+	font-weight:800;
+}
+
+.woman{
+	position: relative;
+	display: inline-block;
+}
+
+.cir{
+	width:300px;
+	height: 300px;
+	background: transparent;
+	border:45px solid #38B6FA;
+	border-radius: 50%;
+}
+
+.info{
+	max-width:380px;
+	font-size: 1.2rem;
+	font-family: 'open sans';
+	font-weight: 900;
+	padding-right: 200px;
+	float: right;
+
+	
+}
+
+.keki {
+    padding-top: 150px;
+    padding-right: 0;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size:5rem;
+    max-width: 700px;
+    display: inline-block;
+    color:#38B6FA;
+    font-weight: 800;
+}
+
+.pop{
+	display: inline-block;
+	max-width:380px;
+	font-size: 1.2rem;
+	font-family: 'open sans';
+	font-weight: 500;
+	padding-right: 200px;
+	padding-left: 10px
+}
