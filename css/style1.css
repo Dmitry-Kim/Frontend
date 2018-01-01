@@ -25,10 +25,11 @@ body {
 }
 
 
-.btn{
+.bt{
 	padding-left: 100px;
 }
 .button {
+
 	width:200px;
 	left:100;
 	font-family: 'Open Sans';
@@ -70,10 +71,11 @@ body {
 
 .info{
 	max-width:380px;
-	font-size: 1.2rem;
+	font-size: 2rem;
 	font-family: 'open sans';
-	font-weight: 900;
+	font-weight: 800;
 	padding-left: 100px;
+	opacity: 0.8;
 
 	
 }
@@ -92,8 +94,7 @@ body {
 
 .pop{
 	display: inline-block;
-	max-width:380px;
-	font-size: 1.2rem;
+	font-size: 2rem;
 	font-family: 'open sans';
 	font-weight: 500;
 	padding-right: 200px;
