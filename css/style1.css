@@ -15,7 +15,7 @@ body {
 	position: relative;
     padding-top: 250px;
     padding-right: 0;
-    padding-left: 10px;
+    padding-left: 100px;
     padding-bottom: 0px;
     font-size:5rem;
     max-width: 600px;
@@ -24,20 +24,17 @@ body {
     font-weight: 800;
 }
 
-.img {
-	height:700px;
-	position: absolute;
-	display: inline-block;
-	padding-top: 55px;
-}
 
+.btn{
+	padding-left: 100px;
+}
 .button {
-	margin-left:10px;
-	left:0;
+	width:200px;
+	left:100;
 	font-family: 'Open Sans';
 	text-align: center;
 	color:white;
-	padding:10px 20px 10px 20px;
+	padding:10px 10px 10px 10px;
 	background:transparent;
 	border-radius: 10%;
 	border: 3px solid #38B6FA;
@@ -59,8 +56,6 @@ body {
 }
 
 .woman{
-	position: relative;
-	display: inline-block;
 }
 
 .cir{
@@ -69,6 +64,8 @@ body {
 	background: transparent;
 	border:45px solid #38B6FA;
 	border-radius: 50%;
+	float:right;
+	margin-top: -150px;
 }
 
 .info{
@@ -76,8 +73,7 @@ body {
 	font-size: 1.2rem;
 	font-family: 'open sans';
 	font-weight: 900;
-	padding-right: 200px;
-	float: right;
+	padding-left: 100px;
 
 	
 }
