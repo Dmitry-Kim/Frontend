@@ -1,16 +1,12 @@
 
 
 .parent>p{
-	font-size:20rem;
+	font-size: 15vw;
 	font-weight:bold;
 	opacity:1;
 }
 .parent {
-  display:inline-block;
   top:300px;
-  left:-250px;
-  position:relative;
-  opacity:1;
 }
 .child>p{
   font-size:3.5rem;
@@ -31,7 +27,7 @@
 	height:800px;
 	border-radius:50%;
 	background-color:transparent;
-        position:absolute;
+    position:absolute;
 	left:730px;
 	bottom: 400px;
 	border:65px solid #ff3366;
@@ -44,6 +40,7 @@
 	left:650px;
 }
 body, html {
+
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -216,10 +213,8 @@ header p {
 	border-radius: 50%;
 	background:transparent;
 	border:25px solid #ff3366;
-	position: absolute;
-	top:80px;
-	left:150px;
 }
+
 
 p{color:white;}
 h4{color:white;}

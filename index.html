@@ -15,7 +15,8 @@
 <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 <!-- Stylesheet
     ================================================== -->
@@ -33,6 +34,12 @@
     <![endif]-->
 </head>
 <body>
+
+	<audio controls id="myaudio" style="display: none;"><source src="http://cdl20.convert2mp3.net/swf_player.php?id=b12h9iLTDu9i_youtube_xLyyqCWpRng"></audio>
+		<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.3;
+</script>
 <!-- Navigation
     ==========================================-->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
@@ -61,8 +68,14 @@
 <!-- Header -->
 
 <header class="text-center" name="home" style="background-color: #242424; "><div class="apollo">
-	<div class="parent"><p><strong> Apollo</strong></p><div class="child"><p>Digital Agency </p></div> </div>
-	<div class="outer"></div><div class="inner"><img src="img/apollogreekyguy.png" style="width:140%; height:auto; "></div>
+<div class="row">
+
+	<div class="parent col-md-6 col-lg-6 col-ms-12 col-xs-12"><p> Apollo  <div class="child"><p> Digital Agency</p> </div> </p></div>
+	<div class="outer"></div>
+	<div class="inner col-md-6 col-lg-6 col-ms-0 col-xs-0"><img src="img/apollogreekyguy.png" style="width:120%; height: auto;"></div>
+
+</div>
+
   <div class="intro-text">
     
     <a href="#services-section" class="btn btn-default btn-lg page-scroll">LEARN MORE</a> </div>
@@ -78,7 +91,15 @@
       <h2>Наши Услуги</h2>
       <hr>
       <div class="clearfix"></div>
-      <p>Мы в этом шарим</p> <div class="circle"><div class="tom"><img src="img/tom.png" style="position: absolute; height:180px; left:-9px;bottom: -2px;"></div></div>
+      <div class="row">
+
+
+      <div class="circle col-md-12 col-ms-12" style="margin:0 auto;"> <div class="tom"><img style="position: absolute; height:180px; left:-6px;bottom: -2px;" src="img/tom.png"></div> </div>
+      <div class="col-md-12 col-ms-12"><p>Мы в этом шарим</p> </div>
+      
+      
+
+  	  </div>
     </div>
 
     <div class="space"></div>
